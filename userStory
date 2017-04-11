@@ -1,0 +1,15 @@
+All nouns:
+
+1/ person 2/ bike 3/ docking station
+
+All verbs:
+
+1/ use 2/ release 3/ is working
+
+OBJECTS             MESSAGES
+Person
+Bike                working?
+Docking Station     release_bike
+
+Bike <-- working? --> true/false
+DockingStation <-- release_bike --> a Bike
